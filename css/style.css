@@ -32,3 +32,8 @@
     font-size: 80%;
     padding: .8rem;
 }
+
+/* Header */
+.img-thumbnail {
+    width: 200px;
+}
