@@ -7,192 +7,67 @@
     <title>Chris Vo - Software Developer</title>
 
     <!-- CSS -->
-    <link href="../css/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="../css/bootstrap-css/bootstrap.css" rel="stylesheet" />
-    <link href="../css/bootstrap-css/bootstrap.min.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="js/javascript.js"></script>
 </head>
 <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-navbar text-uppercase">
-        <a class="navbar-brand" href="#">CHRIS VO</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            Menu <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
-            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- header -->
-    <header id="header" class="position-relative overflow-hidden d-flex w-100 p-3 pt-4 mx-auto mt-5 text-center">
-        <div class="col-md-6 p-lg-5 mx-auto my-3">
-            <img src="img/header.png" class="img-thumbnail rounded-circle mx-auto d-block" alt="Chris Vo picture in his trip to the forrest" />
-            <h1 class="font-weight-bold mt-4">My name is <span class="header-title">Chris Vo</span></h1>
-            <p class="lead font-weight-normal">I’m a software developer specialize in Java, and have experience working with web development.</p>
-            <a class="btn btn btn-outline-light" href="#">See my resume</a>
-        </div>
-        <div class="product-device box-shadow d-none d-md-block"></div>
-        <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
-    </header>
+    <h1 class="intro">Hello, I am Chris Vo!</h1>
+    <h1 class="title">a software developer</h1>
 
-    <!-- about -->
-    <div class="jumbotron text-center mb-0">
-        <div class="container">
-            <h1 class="jumbotron-heading">About me</h1>
-            <p class="lead text-muted">Saying soemthing to fillthe space</p>
+    <h1 class="section">About Me</h1>
+    <ul>
+        <li>
+            recent grad from <strong><a href="https://www.lasalle.edu/" target="_blank">LaSalle University</a></strong><br />
+            <span>graduated: <strong>january 2019</strong></span>
+        </li>
+        <li>Bachelor of Arts (B.A) in Computer Science</li>
+        <li>
+            from Vietnam to U.S.<br />
+            <span>bilingual: <strong>vietnamese &amp; english</strong></span>
+        </li>
+        <li>lactose intolerant</li>
+    </ul>
+
+    <h1 class="section">Experience</h1>
+    <ol reversed>
+        <li>
             <p>
-                <a href="#" class="btn btn-primary my-2">do thinga</a>
-                <a href="#" class="btn btn-secondary my-2">not doing things</a>
+                <a href="http://marketyou.co/" target="_blank">MarketYou</a> <br />
+                <strong>WordPress Assistant Developer</strong> <br />
+                May 2019 - Sep 2019
             </p>
-        </div>
-    </div>
+        </li>
+        <li>
+            <p>
+                <a href="https://www.lasalle.edu/" target="_blank">LaSalle University</a> <br />
+                <strong>Web Developer</strong><br />
+                May 2018 – Dec 2018
+            </p>
+        </li>
 
-    <!-- portfolio -->
-    <div class="album py-5 bg-light">
-        <div class="container">
-
-            <div class="text-center">
-                <h1 class="jumbotron-heading">Projects</h1>
-                <div class="btn-group my-4" role="group">
-                    <button id="projAll" type="button" class="btn btn-secondary btn-custom" onclick="btnProject(this.id)">All</button>
-                    <button id="projJava" type="button" class="btn btn-secondary btn-custom" onclick="btnProject(this.id)">Java</button>
-                    <button id="projJS" type="button" class="btn btn-secondary btn-custom" onclick="btnProject(this.id)">JavaScript</button>
-                    <button id="projCsharp" type="button" class="btn btn-secondary btn-custom" onclick="btnProject(this.id)">C#</button>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    </ol>
 
 
-    <!-- footer -->
-    <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2020 Chris Vo · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
+    <h1 class="section">Projects</h1>
+    <ol reversed>
+        <li>
+            <p>
+                MarketYou <br />
+                <strong>WordPress Assistant Developer</strong> <br />
+                May 2019 - Sep 2019
+            </p>
+        </li>
+        <li>
+            <p>
+                La Salle University <br />
+                <strong>Web Developer</strong><br />
+                May 2018 – Dec 2018
+            </p>
+        </li>
 
-    <!-- My JavaScript -->
-    <script src="js/javascript.js"></script>
-    <script src="js/projects.js"></script>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="bootstrap-js/bootstrap.min.js"></script>
-    <script src="bootstrap-js/bootstrap.js"></script>
+    </ol>
 </body>
 </html>
