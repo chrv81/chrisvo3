@@ -103,3 +103,9 @@ ol li a {
 a:hover {
     color: #a6daef;
 }
+
+/* images */
+.favicon {
+    width: 20px;
+    height: 20px;
+}
