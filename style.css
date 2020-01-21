@@ -1,5 +1,4 @@
 ﻿body {
-
     background-color: black;
     color: white;
     font-family: Courier New, Courier, monospace;
@@ -51,9 +50,9 @@ li {
     margin-top: 10px;
 }
 
-span {
-    font-size: 13px;
-
+li span {
+    font-size: 12px;
+    color: gray;
 }
 
 a {
@@ -93,6 +92,21 @@ h1 {
     margin-top: 50px;
 }
 
+.mini-title {
+    background-color: #bfb1d5;
+    font-size: 16px;
+}
+
+.mini-title a {
+    color: black;
+    text-decoration: none;
+}
+
+    .mini-title:hover {
+        color: #fff;
+        background-color: #777777;
+        text-decoration: none;
+    }
 
 /* experience */
 ol li a {
