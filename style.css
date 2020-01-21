@@ -10,7 +10,7 @@
 @media only screen and (max-width: 600px) {
     body {
         margin-left: 40px;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 }
 
@@ -18,7 +18,7 @@
 @media only screen and (min-width: 600px) {
     body {
         margin-left: 100px;
-        margin-top: 70px;
+        margin-top: 45px;
     }
 }
 
@@ -26,7 +26,7 @@
 @media only screen and (min-width: 768px) {
     body {
         margin-left: 120px;
-        margin-top: 80px;
+        margin-top: 50px;
     }
 }
 
@@ -34,7 +34,7 @@
 @media only screen and (min-width: 992px) {
     body {
         margin-left: 140px;
-        margin-top: 90px;
+        margin-top: 55px;
     }
 }
 
@@ -42,7 +42,7 @@
 @media only screen and (min-width: 1200px) {
     body {
         margin-left: 160px;
-        margin-top: 100px;
+        margin-top: 60px;
     }
 }
 
@@ -105,7 +105,6 @@ a:hover {
 }
 
 /* images */
-.favicon {
-    width: 20px;
-    height: 20px;
+.emoji {
+    font-size: 20px;
 }
