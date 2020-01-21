@@ -102,10 +102,10 @@ h1 {
     text-decoration: none;
 }
 
-    .mini-title:hover {
-        color: #fff;
-        background-color: #777777;
-        text-decoration: none;
+    .mini-title:hover, .mini-title a:hover {
+        color: black;
+        background-color: #e1dcd0;
+        text-decoration: line-through;
     }
 
 /* experience */
