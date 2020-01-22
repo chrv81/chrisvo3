@@ -2,7 +2,7 @@
 
 ## About This Portfolio
 
-I was inspired by @muan portfolio website. Her website was straight up black and white theme.
+I was inspired by **@muan** portfolio website. Her website was straight up black and white theme.
 
 This speaks `aesthetic`, `simplistic` and `minimalistic` to me, which are my favorite style currently.
 
@@ -18,9 +18,9 @@ used `git bash` to push and pull project files
 
 ## Old Portfolio Websites
 
-> The first ever portfolio was build with `Bootstrap 3` and `JavaScript` . Check out [1st Portfolio](https://chrisvo3.github.io/portfolio-1/)
-
 #### First Portfolio
+
+> The first ever portfolio was build with `Bootstrap 3` and `JavaScript` . Check out [1st Portfolio](https://chrisvo3.github.io/portfolio-1/)
 
 In the first portfolio, the biggest accomplishment was the terminal that is coded in JavaScript.
 
@@ -29,9 +29,9 @@ In the first portfolio, the biggest accomplishment was the terminal that is code
 - The terminal was build nicely with `Bootstrap 3` and hard coded `css`
 
 
-> The second portfolio was build with `Bootstrap 4` . Check out [2st Portfolio](https://chrisvo3.github.io/portfolio-2/)
-
 #### Second Portfolio
+
+> The second portfolio was build with `Bootstrap 4` . Check out [2st Portfolio](https://chrisvo3.github.io/portfolio-2/)
 
 In the second portfolio, the biggest accomplishment was the design of the website overall.
 
