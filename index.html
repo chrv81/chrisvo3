@@ -10,9 +10,6 @@
     <!-- CSS -->
     <link href="../css/style.css" rel="stylesheet" />
 
-    <!-- JS -->
-    <script src="js/javascript.js"></script>
-
 </head>
 <body>
 
@@ -21,7 +18,7 @@
     <h1 class="mini-title"><a href="../resources/chrisvo-resume.pdf" target="_blank" title="view Chris Vo resume">resume</a></h1>
 
     <h1 class="section">About Me</h1>
-    <ul>
+    <ul id="update">
         <li>
             grad from <strong><a href="https://www.lasalle.edu/" target="_blank">LaSalle University</a></strong><br />
             <span>graduated: <strong>january 2019</strong> <span class="emoji">&#127891;</span></span>
@@ -31,7 +28,7 @@
             <span>web development &amp; software development</span>
         </li>
         <li>
-            Vietnam to U.S. <br />
+            Vietnam to U.S.<br />
             <span><strong>bilingual</strong>: vietnamese  english</span>
         </li>
         <li>
@@ -79,7 +76,7 @@
         </li>
         <li>
             <strong>COVID-19 TRACKER</strong> -- an app to to track Corona Virus (COVID-19)<br />
-            <span>Java, jQuery Spring Boot, MVC, BootStrap 4</span><br />
+            <span>Java, jQuery, Spring Boot, MVC, BootStrap 4</span><br />
             <div class="btn-group">
                 <input class="btn hidden" type="button" value="[ demo ]" title="demo unavailable" />
                 <input class="btn" type="button" value="[ github ]" title="COVID-19 Tracker Repository" onclick="window.open('https://github.com/chrisvo3/covid19-tracker','_blank')" />
@@ -93,9 +90,9 @@
                 <input class="btn" type="button" value="[ github ]" title="Student4Student Repository" onclick="window.open('https://github.com/chrisvo3/student4student','_blank')" />
             </div>
         </li>
-
     </ul>
-
+    <input id="btnLoad" class="btn" type="button" value="> [ load more ]" title="Load More" onclick="btnLoad()"/>
+    <input id="btnHide" class="btn hide" type="button" value="> [ show less ]" title="Show Less" onclick="btnHide()" />
 
     <h1 class="section">Contact</h1>
     <ul>
@@ -107,6 +104,15 @@
             &#118;&#111;&#99;&#104;&#114;&#105;&#115;&#51;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
         </li>
     </ul>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- JS -->
+    <script src="js/javascript.js"></script>
 
 </body>
 </html>
