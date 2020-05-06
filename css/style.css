@@ -5,51 +5,6 @@
     font-size: 15px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body {
-        margin-right: 40px;
-        margin-left: 40px;
-        margin-top: 40px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    body {
-        margin-right: 100px;
-        margin-left: 100px;
-        margin-top: 45px;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body {
-        margin-right: 120px;
-        margin-left: 120px;
-        margin-top: 50px;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    body {
-        margin-right: 40px;
-        margin-left: 140px;
-        margin-top: 55px;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body {
-        margin-right: 160px;
-        margin-left: 160px;
-        margin-top: 60px;
-    }
-}
-
 /* body */
 li {
     margin-top: 10px;
@@ -157,4 +112,50 @@ a:hover {
 
 .hide {
     display: none;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 45px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        margin-right: 120px;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        margin-right: 40px;
+        margin-left: 140px;
+        margin-top: 55px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        margin-right: 160px;
+        margin-left: 160px;
+        margin-top: 60px;
+    }
 }
