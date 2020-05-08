@@ -17,7 +17,7 @@
 ];
 
 function btnLoad() {
-    alert("Loading...");
+    // alert("Loading...");
     var btnHide = document.getElementById("btnHide");
     btnHide.classList.remove("hide");
 
@@ -40,7 +40,7 @@ function btnLoad() {
 }
 
 function btnHide() {
-    alert("hide");
+    // alert("hide");
     var btnHide = document.getElementById("btnHide");
     btnHide.classList.add("hide");
 
