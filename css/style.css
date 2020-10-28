@@ -52,6 +52,11 @@ h1 {
     margin-top: 50px;
 }
 
+.skill {
+    font-size: 14px;
+    color: lightgray;
+}
+
 .mini-title {
     background-color: #bfb1d5;
     font-size: 16px;
