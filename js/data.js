@@ -1,34 +1,34 @@
 export const experiences = [
     {
-        url: 'https://corporate.comcast.com/company/xfinity',
-        company: 'Comcast Xfinity',
+        url: 'https://corporate.comcast.com/comp/xfinity',
+        comp: 'Comcast Xfinity',
         title: 'Software Engineer',
-        startDate: 'May 2021',
-        endDate: '',
-        lang: ['JavaScript', 'TypeScript', 'React & Redux']
+        start: 'May 2021',
+        end: '',
+        skills: ['JavaScript', 'TypeScript', 'React & Redux']
     },
     {
         url: 'https://www.yikesinc.com/',
-        company: 'YIKES Inc.',
+        comp: 'YIKES Inc.',
         title: 'Jr. Full Stack Developer',
-        startDate: 'Feb 2020',
-        endDate: 'March 2021',
-        lang: ['PHP', 'JavaScript', 'MVC']
+        start: 'Feb 2020',
+        end: 'March 2021',
+        skills: ['PHP', 'JavaScript', 'MVC']
     },
     {
         url: 'http://marketyou.co/',
-        company: 'MarketYou',
+        comp: 'MarketYou',
         title: 'Web Developer Intern',
-        startDate: 'May 2019',
-        endDate: 'Sep 2019',
-        lang: ['JavaScript', 'CSS']
+        start: 'May 2019',
+        end: 'Sep 2019',
+        skills: ['JavaScript', 'CSS']
     },
     {
         url: 'https://www.lasalle.edu/',
-        company: 'LaSalle University',
+        comp: 'LaSalle University',
         title: 'Web Developer',
-        startDate: 'May 2018',
-        endDate: 'Dec 2018',
-        lang: ['PHP', 'Laravel', 'JavaScript', 'Bootstrap 4']
+        start: 'May 2018',
+        end: 'Dec 2018',
+        skills: ['PHP', 'Laravel', 'JavaScript', 'Bootstrap 4']
     },
 ];
