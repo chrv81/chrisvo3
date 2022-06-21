@@ -21,24 +21,6 @@ let projects = [
 const keyExp = ['[URL]', '[COMP]', '[TITLE]', '[START]', '[END]', '[SKILLS]'];
 const tempExp = '<li><p><a href="[URL]" target="_blank" title="[COMP]">[COMP]</a><br /><strong>[TITLE]</strong><br /><span>[START] ~ [END]</span><p class="related-skill">[SKILLS]</p></p></li>';
 
-// loading experience 
-function onPageLoadExp() {
-    var domExpList = document.getElementById("experiences");
-    const listExp = experiences.map((exp, index) => {
-        return tempExp.replace(keyExp[0], exp.url)
-                .replaceAll(keyExp[1], exp.comp)
-                .replace(keyExp[2], exp.title)
-                .replace(keyExp[3], exp.start)
-                .replace(keyExp[4], !exp.end ? 'Present' : exp.end)
-                .replace(keyExp[5], exp.skills.join(', '));
-    });
-    listExp.forEach(list => {
-        console.log(list);
-        domExpList.insertAdjacentHTML('beforeend', list);
-    });
-}
-window.onload = onPageLoadExp;
-
 function btnLoad() {
     var btnHide = document.getElementById("btnHide");
     btnHide.classList.remove("hide");
@@ -70,3 +52,20 @@ function btnHide() {
 
     document.getElementById("projects").innerHTML  = "";
 }
+
+// loading experience 
+function onPageLoadExp() {
+    var domExpList = document.getElementById("experiences");
+    const listExp = experiences.map((exp, index) => {
+        return tempExp.replace(keyExp[0], exp.url)
+                .replaceAll(keyExp[1], exp.comp)
+                .replace(keyExp[2], exp.title)
+                .replace(keyExp[3], exp.start)
+                .replace(keyExp[4], !exp.end ? 'Present' : exp.end)
+                .replace(keyExp[5], exp.skills.join(', '));
+    });
+    listExp.forEach(list => {
+        domExpList.insertAdjacentHTML('beforeend', list);
+    });
+}
+window.addEventListener("load", onPageLoadExp);
