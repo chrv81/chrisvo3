@@ -30,7 +30,7 @@ function onPageLoadExp() {
                 .replace(keyExp[2], exp.title)
                 .replace(keyExp[3], exp.start)
                 .replace(keyExp[4], !exp.end ? 'Present' : exp.end)
-                .replace(keyExp[5], exp.skills);
+                .replace(keyExp[5], exp.skills.join(', '));
     });
     listExp.forEach(list => {
         console.log(list);
